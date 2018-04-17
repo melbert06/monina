@@ -1,6 +1,9 @@
-%h1 landing page
-
-= link_to 'Sign in' ,new_user_session_path
+%center
+ %pre{:class=>"container"}
+  %div{:class=>"col-lg-12"}
+   %h1 Bikers Diary
+   %p{:class=>"bg-info"} Diary of every bikers
+   = link_to 'Sign in' ,new_user_session_path
 
 
 / =@post.first(:created_at)
