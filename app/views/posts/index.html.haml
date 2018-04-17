@@ -4,7 +4,7 @@
  %li{:class => "nav-item"}= link_to 'new Post',new_post_path ,:class => "nav-link"
  %li= link_to 'My Post',messages_path
  %li= link_to 'Logout', destroy_user_session_path, method: :delete
-%h1 Diary of every bikers
+%h1 Dress ideas 
 %div{:class => "container bg-info"}
  -  @post.each do |post|
   %h2= post.title 
